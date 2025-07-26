@@ -36,7 +36,8 @@ def order(menu):
         else:
             print("This item is not on the menu ❌")
     return orders_list
-            
+
+# Display ordered items and calculate total price             
 def View_orders(orders, menu):
     total_price=0
     for item in orders:
@@ -107,4 +108,5 @@ while True:
         print("🚫 Order canceled. See you next time!")
         break
     else:
-         print("❗ Invalid choice. Please enter a number between 1 and 4.")    
+         print("❗ Invalid choice. Please enter a number between 1 and 4.") 
+         
